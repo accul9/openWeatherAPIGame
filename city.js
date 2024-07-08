@@ -1,4 +1,5 @@
-const apiKey = process.env.API_KEY;
+const apiKey = config.apiKey;
+console.log(apiKey);
 
 // Create an empty annary to store the city names　都市名を入れる配列を作成
 let cityNames = [];
